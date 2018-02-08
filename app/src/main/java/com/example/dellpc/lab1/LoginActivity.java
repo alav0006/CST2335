@@ -1,19 +1,17 @@
 package com.example.dellpc.lab1;
-import android.util.Log;
-
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
-public class MainActivity extends Activity {
+public class LoginActivity extends Activity {
     protected static final String ACTIVITY_NAME = "StartActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start);
+        setContentView(R.layout.activity_login);
         Log.i(ACTIVITY_NAME, "In onCreate()");
     }
-
 
     public void onResume(){
         super.onResume();

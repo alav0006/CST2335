@@ -1,19 +1,17 @@
 package com.example.dellpc.lab1;
-import android.util.Log;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
-public class MainActivity extends Activity {
+public class ListItemsActivity extends Activity {
     protected static final String ACTIVITY_NAME = "StartActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start);
-        Log.i(ACTIVITY_NAME, "In onCreate()");
+        setContentView(R.layout.activity_list_items);
     }
-
 
     public void onResume(){
         super.onResume();
@@ -37,3 +35,4 @@ public class MainActivity extends Activity {
         Log.i(ACTIVITY_NAME, "In onDestroy()");
     }
 }
+

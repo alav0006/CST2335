@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dellpc.lab1">
 
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,7 +16,7 @@
 
         </activity>
 
-        <activity android:name=".ListItemsActivity" >
+        <activity android:name=".LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +24,7 @@
         </intent-filter>
         </activity>
 
-        <activity android:name=".LoginActivity">
+        <activity android:name=".ListItemsActivity">
 
         </activity>
     </application>

@@ -6,4 +6,8 @@
     <string name="Password">Password</string>
     <string name="LoginButton">Login</string>
     <string name="ListText">What does this do?</string>
+    <string name="dialog_message">Dialog Message</string>
+    <string name="dialog_title">Title</string>
+    <string name="dialog_ok">ok</string>
+    <string name="dialog_cancel">cancel</string>
 </resources>

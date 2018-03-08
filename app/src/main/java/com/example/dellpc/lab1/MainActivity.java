@@ -31,11 +31,12 @@ public class MainActivity extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // Check which request we're responding to
         if (requestCode == 50) {
-            // Make sure the request was successful
+
             if (resultCode == RESULT_OK) {
-                // The user picked a contact.
+
                 Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult");
             }
+            String messagePassed = data.getStringExtra("Response");
         }
     }
 
